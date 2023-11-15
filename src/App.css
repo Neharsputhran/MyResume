@@ -1,0 +1,231 @@
+.Resume{
+  height: 1000px;
+  width: 800px;
+  background-color: rgb(255, 253, 254);
+  margin: 30px auto;
+  box-shadow: 0 0 20px rgb(63, 63, 74);
+
+  
+  border-radius: 15px;
+  display: flex;
+}
+.Profile-pic{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+.Profile .Name{
+  font-size: 70px;
+  color: #0B3948;
+  text-align: left;
+  letter-spacing: 3px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.Profile .Designation{
+  color: gray;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;  font-size: 20px;
+}
+.Profile{
+  width: 500px;
+  text-align: left;
+}
+.ContactUs{
+  display: block;
+  text-align: left;
+}
+
+.Contact{
+  display: block;
+  
+}
+.Linkedin{
+  display: flex;
+  
+  align-items:baseline;
+  gap: 5px;
+}
+.Email{
+  display: flex;
+  
+  align-items:baseline;
+  gap: 5px;
+}
+.Github{
+  display: flex;
+  
+  align-items:baseline;
+  gap: 5px;
+}
+.Leftside{
+  background-color: #ACB0BD;
+  padding: 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 300px;
+
+}
+.Rightside{
+  padding: 20px
+}
+.About{
+  margin-top: 45px;
+  text-align: left;
+  margin-right: 30px;
+  
+}
+.App {
+  text-align: center;
+}
+.Skills{
+  text-align: left;
+  margin-top: 30px;
+  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  list-style: none;
+}
+.Bar{
+  background-color: white;
+  display: block;
+  height: 10px;
+  border: 0.5px solid rgb(58, 57, 57);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+.Bar span{
+  height: 10px;
+  float: left;
+  background: #79a3af;
+}
+.Html{
+  width: 80%;
+  animation: Html 3s;
+}
+.Css{
+  width: 70%;
+  animation: Css 3s;
+}
+.Javascript{
+  width: 50%;
+  animation: Javascript 3s;
+}
+.C{
+  width: 80%;
+  animation: C 3s;
+}
+@keyframes Html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+@keyframes Css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes Javascript {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 50%;
+  }
+}
+@keyframes C {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+.Education li{
+  margin-bottom: 5px;
+  list-style: none;
+} 
+h3{
+  background-color:#D0CDD7;
+}
+.Degree{
+  display: flex;
+  justify-content: space-between;
+}
+.PU{
+  display: flex;
+  justify-content: space-between;
+}
+.Secondary{
+  display: flex;
+  justify-content: space-between;
+}
+.Education{
+  text-align: left;
+  padding-right: 30px;
+} 
+.Projects li{
+  margin-bottom: 5px;
+  list-style: none;
+} 
+.Projects{
+  padding-right: 30px;
+  text-align: left;
+  
+} 
+.Hobbies li{
+  list-style: none;
+
+}  
+.Hobbies{
+  text-align: left;
+  margin-top: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
